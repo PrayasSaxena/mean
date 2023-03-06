@@ -1,0 +1,39 @@
+mat-form-field,
+textarea {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img{
+  height: 100%;
+}
+
+#image-error{
+  color: purple;
+
+}
+
+#emphasize {
+  font-weight: bold;
+  animation-name: image-error;
+  animation-duration: 1s;
+  color: purple;
+}
+
+
+@keyframes image-error {
+  from {color: red; }
+  to {color: blue; }
+}
